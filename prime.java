@@ -10,11 +10,12 @@ public class prime {
 
         if (num < 2) {
             isPrime = false;
+        } else if (num == 2) {
+            isPrime = true;
         } else {
             for (int i = 2; i <= num - 1; i++) {
                 if (num % i == 0) {
                     isPrime = false;
-                    break;
                 }
             }
         }
