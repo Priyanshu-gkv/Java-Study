@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+// To having anagrams the mandatory terms are -
+// 1. the length of the strings are equal
+// 2. the characters are same 
 public class Anagrams {
 
     public static boolean anagrams(String str1, String str2) {
